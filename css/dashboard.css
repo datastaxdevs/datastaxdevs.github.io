@@ -1,0 +1,304 @@
+body {
+  font-size: .875rem;
+}
+
+.feather {
+  width: 16px;
+  height: 16px;
+  vertical-align: text-bottom;
+}
+
+a.menu1:hover
+{
+   text-decoration:none;
+   color  		  :#0000AA;
+   font-weight	  :bold;
+}
+
+a.menu2:hover
+{
+   text-decoration:none;
+   color  		  :#AA0000;
+   font-weight	  :bold;
+}
+
+
+a.menu3:hover
+{
+   text-decoration:none;
+   color  		  :#00AA00;
+   font-weight	  :bold;
+}
+
+a.menu4:hover
+{
+   text-decoration:none;
+   color  		  :#AA00AA;
+   font-weight	  :bold;
+}
+
+/*
+ * Sidebar
+ */
+
+.sidebar {
+  position: fixed;
+  top: 48px;
+  bottom: 0;
+  left: 0;
+  z-index: 100; /* Behind the navbar */
+  padding: 0;
+  box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+}
+
+.sidebar-sticky {
+	background-image: url("../pics/body-bg.png");
+  background-repeat: repeat;
+  position		: -webkit-sticky;
+  position		: sticky;
+  top			: 48px;
+  height		: calc(100vh - 48px);
+  padding-top	: .5rem;
+  overflow-x	: hidden;
+  overflow-y	: auto; /* Scrollable contents if viewport is shorter than content. */
+}
+
+.sidebar .nav-link {
+  font-weight: 500;
+  color: #333;
+}
+
+.sidebar .nav-link .feather {
+  margin-right: 4px;
+  color: #999;
+}
+
+.sidebar .nav-link.active {
+  color: #007bff;
+}
+
+.sidebar .nav-link:hover .feather,
+.sidebar .nav-link.active .feather {
+  color: inherit;
+}
+
+.sidebar-heading {
+  font-size: .75rem;
+  text-transform: uppercase;
+}
+
+/*
+ * Navbar
+ */
+
+.navbar-brand {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  font-size: 1rem;
+  background-color: rgba(0, 0, 0, .25);
+  box-shadow: inset -1px 0 0 rgba(0, 0, 0, .25);
+}
+
+.navbar .form-control {
+  padding: .75rem 1rem;
+  border-width: 0;
+  border-radius: 0;
+}
+
+.form-control-dark {
+  color: #fff;
+  background-color: rgba(255, 255, 255, .1);
+  border-color: rgba(255, 255, 255, .1);
+}
+
+.form-control-dark:focus {
+  border-color: transparent;
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, .25);
+}
+
+/*
+ * Utilities
+ */
+
+.border-top { border-top: 1px solid #e5e5e5; }
+.border-bottom { border-bottom: 1px solid #e5e5e5; }
+
+.box {
+  width: 200px; height: 300px;
+  position: relative;
+  border: 1px solid #BBB;
+  background: #EEE;
+}
+.ribbon-green {
+  position: absolute;
+  right: -5px; top: -5px;
+  z-index: 1;
+  overflow: hidden;
+  width: 75px; height: 75px;
+  text-align: right;
+}
+.ribbon-green span {
+  font-size: 10px;
+  font-weight: bold;
+  color: #FFF;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 20px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  width: 100px;
+  display: block;
+  background: #79A70A;
+  background: linear-gradient(#9BC90D 0%, #79A70A 100%);
+  box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 19px; right: -21px;
+}
+.ribbon-green span::before {
+  content: "";
+  position: absolute; left: 0px; top: 100%;
+  z-index: -1;
+  border-left: 3px solid #79A70A;
+  border-right: 3px solid transparent;
+  border-bottom: 3px solid transparent;
+  border-top: 3px solid #79A70A;
+}
+.ribbon-green span::after {
+  content: "";
+  position: absolute; right: 0px; top: 100%;
+  z-index: -1;
+  border-left: 3px solid transparent;
+  border-right: 3px solid #79A70A;
+  border-bottom: 3px solid transparent;
+  border-top: 3px solid #79A70A;
+}
+.ribbon-orange {
+  position: absolute;
+  right: -5px; top: -5px;
+  z-index: 1;
+  overflow: hidden;
+  width: 75px; height: 75px;
+  text-align: right;
+}
+.ribbon-orange span {
+  font-size: 10px;
+  font-weight: bold;
+  color: #FFF;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 20px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  width: 100px;
+  display: block;
+  background: #79A70A;
+  background: linear-gradient(#F79E05 0%, #8F5408 100%);
+  box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 19px; right: -21px;
+}
+.ribbon-orange span::before {
+  content: "";
+  position: absolute; left: 0px; top: 100%;
+  z-index: -1;
+  border-left: 3px solid #8F5408;
+  border-right: 3px solid transparent;
+  border-bottom: 3px solid transparent;
+  border-top: 3px solid #8F5408;
+}
+.ribbon-orange span::after {
+  content: "";
+  position: absolute; right: 0px; top: 100%;
+  z-index: -1;
+  border-left: 3px solid transparent;
+  border-right: 3px solid #8F5408;
+  border-bottom: 3px solid transparent;
+  border-top: 3px solid #8F5408;
+}
+.ribbon-cyan {
+  position: absolute;
+  right: -5px; top: -5px;
+  z-index: 1;
+  overflow: hidden;
+  width: 75px; height: 75px;
+  text-align: right;
+}
+.ribbon-cyan span {
+  font-size: 10px;
+  font-weight: bold;
+  color: #FFF;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 20px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  width: 100px;
+  display: block;
+  background: #79A70A;
+  background: linear-gradient(#05EFF7 0%, #087F8F 100%);
+  box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 19px; right: -21px;
+}
+.ribbon-cyan span::before {
+  content: "";
+  position: absolute; left: 0px; top: 100%;
+  z-index: -1;
+  border-left: 3px solid #087F8F;
+  border-right: 3px solid transparent;
+  border-bottom: 3px solid transparent;
+  border-top: 3px solid #087F8F;
+}
+.ribbon-cyan span::after {
+  content: "";
+  position: absolute; right: 0px; top: 100%;
+  z-index: -1;
+  border-left: 3px solid transparent;
+  border-right: 3px solid #087F8F;
+  border-bottom: 3px solid transparent;
+  border-top: 3px solid #087F8F;
+}
+.ribbon-grey {
+  position: absolute;
+  right: -5px; top: -5px;
+  z-index: 1;
+  overflow: hidden;
+  width: 75px; height: 75px;
+  text-align: right;
+}
+.ribbon-grey span {
+  font-size: 10px;
+  font-weight: bold;
+  color: #FFF;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 20px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  width: 100px;
+  display: block;
+  background: #79A70A;
+  background: linear-gradient(#B6BAC9 0%, #808080 100%);
+  box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 19px; right: -21px;
+}
+.ribbon-grey span::before {
+  content: "";
+  position: absolute; left: 0px; top: 100%;
+  z-index: -1;
+  border-left: 3px solid #808080;
+  border-right: 3px solid transparent;
+  border-bottom: 3px solid transparent;
+  border-top: 3px solid #808080;
+}
+.ribbon-grey span::after {
+  content: "";
+  position: absolute; right: 0px; top: 100%;
+  z-index: -1;
+  border-left: 3px solid transparent;
+  border-right: 3px solid #808080;
+  border-bottom: 3px solid transparent;
+  border-top: 3px solid #808080;
+}
+
