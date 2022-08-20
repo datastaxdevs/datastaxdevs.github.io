@@ -130,7 +130,6 @@ echo "$(tput setaf 2)[OK]$(tput setaf 7) - Created $ASTRA_CLI_DIR"
 mkdir -p "$astra_scb_folder"
 echo "$(tput setaf 2)[OK]$(tput setaf 7) - Created $astra_scb_folder"
 
-
 echo ""
 echo "Downloading archive:"
 download_url="https://github.com/datastaxdevs/datastaxdevs.github.io/raw/master/cli/astra-cli-${ASTRA_CLI_VERSION}.zip"
