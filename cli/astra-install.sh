@@ -26,9 +26,11 @@ echo "  ██║  ██║███████║   ██║   ██║  �
 echo "  ╚═╝  ╚═╝╚══════╝   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝    ╚══════╝╚═╝  ╚═╝╚══════╝╚══════╝╚══════╝"
 echo " "
 
-echo "Installing Astra Cli, please wait...      "
 # Global variables
 ASTRA_CLI_VERSION="0.1.alpha3"
+
+echo "Installing Astra Cli $ASTRA_CLI_VERSION, please wait...      "
+
 ASTRA_CLI_PLATFORM=$(uname)
 ASTRA_CLI_DIR="$HOME/.astra/cli"
 
