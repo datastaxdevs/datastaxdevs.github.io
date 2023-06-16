@@ -1,0 +1,17 @@
+com.datastax.astra.boot
+com.datastax.astra.boot.utils
+com.datastax.astra.sdk
+com.datastax.astra.sdk.config
+com.dtsx.astra.sdk
+com.dtsx.astra.sdk.db
+com.dtsx.astra.sdk.db.domain
+com.dtsx.astra.sdk.db.domain.telemetry
+com.dtsx.astra.sdk.db.exception
+com.dtsx.astra.sdk.exception
+com.dtsx.astra.sdk.org
+com.dtsx.astra.sdk.org.domain
+com.dtsx.astra.sdk.org.exception
+com.dtsx.astra.sdk.streaming
+com.dtsx.astra.sdk.streaming.domain
+com.dtsx.astra.sdk.streaming.exception
+com.dtsx.astra.sdk.utils
