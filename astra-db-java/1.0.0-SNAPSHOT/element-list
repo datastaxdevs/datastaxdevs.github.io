@@ -1,6 +1,0 @@
-com.datastax.astra.client
-com.datastax.astra.client.admin
-com.datastax.astra.client.exception
-com.datastax.astra.client.model
-com.datastax.astra.internal
-com.datastax.astra.internal.utils
