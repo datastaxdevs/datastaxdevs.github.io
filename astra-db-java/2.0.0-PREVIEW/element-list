@@ -23,8 +23,6 @@ com.datastax.astra.client.databases.commands
 com.datastax.astra.client.databases.commands.results
 com.datastax.astra.client.databases.definition
 com.datastax.astra.client.databases.definition.keyspaces
-com.datastax.astra.client.devops
-com.datastax.astra.client.devops.exceptions
 com.datastax.astra.client.exceptions
 com.datastax.astra.client.tables
 com.datastax.astra.client.tables.commands
